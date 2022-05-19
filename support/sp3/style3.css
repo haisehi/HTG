@@ -1,0 +1,87 @@
+html,body {
+	/* width: 100%;
+	height: 100%; */
+	padding: 0;
+	margin: 0;
+	/* overflow: hidden; */
+}
+body {
+	background-color: rgb(0, 0, 0);
+	/* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=); */
+	/* background-repeat: repeat; */
+
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+/* navbar */
+/* thanh công cụ 1 */
+.toolbar {
+    min-height: 50px;
+    background-color:#18283a;
+    display: flex;
+    justify-content: space-between;
+}
+.toolbar-img{
+	list-style: none;
+}
+.toolbar-list{
+    padding-left: 0;
+    margin: auto 16px;
+
+}
+.toolbar-item{
+    color: white;
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+	text-decoration: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+	  
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #22415a91;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
+	  
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+/* content support */
+.content{
+	background-color: #22394d;
+	width: 100%;
+	height: 100%;
+}
+.main-content{
+    background-color: #435569;;
+	width: 70%;
+	height: 2600px;
+	margin: auto;
+	padding: auto;
+    border-radius: 5px;
+}
+.p_content{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+
+/* Footer */
+footer{
+    margin-top: auto;
+    background-color:#18283a;
+	width: 100%;
+	height: 100px;
+}

@@ -1,0 +1,127 @@
+html,body {
+	/* width: 100%;
+	height: 100%; */
+	padding: 0;
+	margin: 0;
+	/* overflow: hidden; */
+}
+body {
+	background-color: rgb(0, 0, 0);
+	/* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=); */
+	/* background-repeat: repeat; */
+
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+/* navbar */
+/* thanh công cụ 1 */
+.toolbar {
+    min-height: 50px;
+    background-color:#18283a;
+    display: flex;
+    justify-content: space-between;
+	position: fixed;
+	width: 100%;
+}
+.toolbar-img{
+	list-style: none;
+}
+.toolbar-list{
+    padding-left: 0;
+    margin: auto 16px;
+
+}
+.toolbar-item{
+    color: white;
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+	text-decoration: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+	  
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #22415a91;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
+	  
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+/* column layout */
+.column-layout{
+    margin-top: 0px;
+    padding: 10px 0;
+    background-color: #22394d;
+    display: flex;
+    flex-direction: column;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+/* pc , tablet */
+@media(min-width:800px){
+    .column-layout{
+        flex-direction: row;
+    }
+}
+
+.column-item{
+    padding: 0 12px;
+    
+}
+
+/* .sidebar-one{
+
+} */
+
+.sidebar-two{
+    flex: 1;
+    /* order: 2; */
+	height: 500px;
+	width: 100%;
+	margin-top: 90px;
+
+}
+.fixed_content{
+    margin-top: auto;
+    position: fixed;
+}
+.main-column{
+    flex: 4;
+    /* order: 3; */
+	background-color: #152431;
+	margin-top: 90px;
+}
+
+.img{
+	width:100px ;
+	height:100px ;
+}
+.de_xuat{
+	color: white;
+	text-decoration: none;
+}
+.de_xuat:hover{
+	background-color:rgba(228, 207, 207, 0.411);
+}
+.hover-one:hover{
+	background-color: rgba(228, 207, 207, 0.178);
+}
+
+/* Footer */
+footer{
+    background-color:#18283a;
+	width: 100%;
+	height: 100px;
+	margin-top: 0px;
+}
