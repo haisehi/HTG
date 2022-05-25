@@ -123,12 +123,9 @@ body {
 }
 
 .y_btn{
-    position: absolute;
-    top: 550px;
-    right: 13px;
-    margin:auto 20px auto 100px ;
+    margin:auto  ;
 	height: 40px;
-    width:15% ;
+    width:100% ;
     background-color: #22394d;
     color: white;
     border-radius: 5px;
@@ -154,9 +151,13 @@ footer{
   }
 
   @media only screen and (max-width:500px){
-      .y_btn{
-        bottom: -530px;
-        right: 10px;
+    .layout_btn{
+        height: 150px;
+    }  
+    .y_btn{
+        width: 40%;
+        height: 35px;
+        font-size: 15px;
       }
       .y_head1{
           width: 56%;

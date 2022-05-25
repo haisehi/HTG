@@ -152,15 +152,17 @@ footer{
   }
   @media only screen and (max-width:500px){
     .content{
-        height: 1600px;
+        height: 2400px;
     }
     footer{
         height: 150px;
     }
     .button1{
         width: 40%;
+        font-size: 12px;
     }
     .button2{
         width: 40%;
+        font-size: 12px;
     }
 }

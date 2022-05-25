@@ -153,7 +153,7 @@ footer{
   }
   @media only screen and (max-width:500px){
     .content{
-        height: 1700px;
+        height: 2000px;
     }
     footer{
         height: 150px;
