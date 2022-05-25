@@ -85,3 +85,17 @@ footer{
 	width: 100%;
 	height: 100px;
 }
+
+/* For mobile */
+@media screen and (max-width: 500px) {
+	ul.toolbar-list li.right, 
+	ul.toolbar-list li {display: none;};
+  }
+  @media only screen and (max-width:500px){
+	.main-content{
+		height: 100%;
+	}
+	footer{
+		height: 150px;
+	}
+}

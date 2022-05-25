@@ -191,9 +191,11 @@ body {
 hr{
     width: 70%;
 }
-.post_content{
-    position: fixed;
-}
+@media only screen and (min-width:600px){
+    .post_content{
+        position: fixed;
+    }
+  }
 .button_content1{
     height: 35px;
     background-color: #e8171f;
@@ -212,3 +214,49 @@ hr{
     border: none;
     width: 120px;
 }
+/* For mobile */
+@media screen and (max-width: 500px) {
+	ul.toolbar-list li.right, 
+	ul.toolbar-list li {display: none;};
+  }
+
+  @media only screen and (max-width:500px){
+    .post{
+        width: 100%;
+    }
+    .button_content1{
+        width: 100%;
+    }
+    .button_content2{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    .main-column{
+        margin-top: 10px;
+    }
+    .toast__icon{
+        width: 2%;
+        font-size: 30px;
+        margin-right: 30px;
+    }
+    .toast__iconRight{
+        display: none;
+    }
+    .toast__icon2{
+        margin-right: 10px;
+        width: 10%;
+    }
+    .toast__icon3{
+        margin-right: 10px;
+        width: 10%;
+    }
+    .toast__icon4{
+        margin-right: 10px;
+        width: 10%;
+    }
+    .layout_content{
+        height: 600px;
+    }
+  }

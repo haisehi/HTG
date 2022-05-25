@@ -125,3 +125,15 @@ footer{
 	height: 100px;
 	margin-top: 0px;
 }
+
+/* For mobile */
+@media screen and (max-width: 500px) {
+	ul.toolbar-list li.right, 
+	ul.toolbar-list li {display: none;};
+  }
+
+  @media only screen and (max-width:500px){
+	footer{
+		height: 150px;
+	}
+}

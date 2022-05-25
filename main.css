@@ -241,6 +241,7 @@ body {
 /* navbar */
 /* thanh công cụ 1 */
 .toolbar {
+	list-style-type: none;
     min-height: 50px;
     background-color:#18283a;
     display: flex;
@@ -386,6 +387,7 @@ body {
 }
 /* stream */
 .stream-layout{
+	
     margin-top: 0px;
     padding: 10px 0;
     background-color: #22394d;
@@ -403,7 +405,7 @@ body {
 	flex: 1;
 }
 .stream-two{
-	flex: 1;
+	flex: 3;
 	background-color: #152431;
 }
 .stream-three{
@@ -418,3 +420,25 @@ footer{
 	height: 100px;
 	margin-top: 0px;
 }
+
+/* For mobile */
+@media screen and (max-width: 500px) {
+	ul.toolbar-list li.right, 
+	ul.toolbar-list li {display: none;};
+  }
+
+  @media only screen and (max-width:500px){
+	.steam{
+		width:100% ;
+	}
+	iframe{
+		width: 100%;
+	}
+	.button_layout{
+		margin: auto auto 100px auto;
+	}
+	.footer{
+        height: 150px;
+    }
+  }
+ 
